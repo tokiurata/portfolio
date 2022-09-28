@@ -1,8 +1,10 @@
+import "./HeaderNav.scss";
+
 function HeaderNav() {
   return (
-    <nav>
-      <h1>Toki Urata</h1>
-      <ul>
+    <nav className="headernav">
+      <h1 className="logo">Toki Urata</h1>
+      <ul className="headernav__nav">
         <li>Projects</li>
         <li>Tech Stack</li>
         <li>Contact</li>
