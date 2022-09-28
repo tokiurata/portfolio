@@ -1,0 +1,27 @@
+.hero {
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  justify-content: space-evenly;
+  height: 400px;
+
+  &__copy-container {
+    width: 350px;
+    min-width: 350px;
+    align-self: center;
+    line-height: 1.5;
+  }
+
+  &__copy {
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
+
+  &__copy-big {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+}
+
+.avatar {
+  margin-top: 3rem;
+}
