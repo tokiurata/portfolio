@@ -11,13 +11,18 @@ html {
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  // font-family: "Inter", sans-serif;
+  font-family: 'Maven Pro', sans-serif;
+
   text-align: center;
-  color: rgb(50, 50, 50);
+  color: #414141;
+
+  background-color: #FFFBEF;
 }
 
 h1 {
-  font-family: "Poppins", sans-serif;
+  // font-family: "Poppins", sans-serif;
+  // font-family: 'Maven Pro', sans-serif;
 }
 
 a {
@@ -38,5 +43,5 @@ button {
 
 .underline {
   text-decoration: underline;
-  text-underline-offset: 4px;
+  text-underline-offset: 9px;
 }
