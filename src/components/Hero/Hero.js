@@ -15,7 +15,7 @@ function Hero() {
           based in Canada. 🇨🇦
         </h2>
         <p className="hero__body">
-          I'm a lifelong learner, attentive to detail, and a hardworking person. I strongly believe in teamwork and I love helping others. I'm currently focusing on <span className="hero__body--span">React</span>, <span className="hero__body--span">Redux</span>, and <span className="hero__body--span">TypeScript</span>.
+          I'm a lifelong learner, committed to quality and accessible code. I strongly believe in teamwork and I love helping others. I'm currently focusing on <span className="hero__body--span">React</span>, <span className="hero__body--span">Redux</span>, and <span className="hero__body--span">TypeScript</span>.
         </p>
       </div>
       {/* <img className="avatar" src={avatar} alt="Toki Urata"></img> */}
