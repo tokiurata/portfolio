@@ -1,0 +1,72 @@
+@use "../../styles/partials/colors" as *;
+
+.techstack {
+  &__title {
+    font-size: 1.875rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+}
+
+.techs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1400px;
+  padding-inline: 5rem;
+  padding-bottom: 3rem;
+  margin-inline: auto;
+  margin-bottom: 4rem;
+}
+
+.tech {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #efebde;
+  border-radius: 4px;
+  width: 180px;
+  aspect-ratio: 1;
+  padding: .5rem;
+
+  &__image {
+    width: 80px;
+
+    &--sass {
+      transform: translateY(-9px);
+    }
+
+    &--node {
+      transform: translateY(-4px);
+      width: 90px;
+    }
+
+    &--express {
+      transform: translateY(-8px);
+      width: 100px;
+    }
+
+    &--axios {
+      transform: translateY(8px);
+      width: 110px;
+    }
+
+    &--reactrouter {
+      transform: translateY(-16px);
+    }
+  }
+
+  &__image-caption {
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+  }
+}
