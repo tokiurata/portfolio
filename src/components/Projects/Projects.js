@@ -3,6 +3,7 @@ import "./Projects.scss";
 function Projects() {
   return (
     <div className="projects" id="projects">
+      <h2 className="projects__title">Projects</h2>
       <div className="project">
         <div className="project__copy">
           <h3 className="project__header">Project Title</h3>
