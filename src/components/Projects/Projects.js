@@ -3,10 +3,10 @@ import "./Projects.scss";
 function Projects() {
   return (
     <div className="projects" id="projects">
-      <h2 className="projects__title">Projects</h2>
+      <h3 className="projects__title">Projects</h3>
       <div className="project">
         <div className="project__copy">
-          <h3 className="project__header">Project Title</h3>
+          <h4 className="project__header">Project Title</h4>
           <p className="project__body">
             Description of the project. Blah blah blah HTML, CSS, Sass, JavaScript
           </p>
@@ -20,7 +20,7 @@ function Projects() {
           -- here goes the image of the project --
         </div>
         <div className="project__copy">
-          <h3 className="project__header">Project Title</h3>
+          <h4 className="project__header">Project Title</h4>
           <p className="project__body">
             Description of the project. Blah blah blah HTML, CSS, Sass, JavaScript
           </p>
