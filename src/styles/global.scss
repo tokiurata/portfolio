@@ -1,3 +1,6 @@
+@use "./partials/colors" as *;
+@use "./partials/variables" as *;
+
 *,
 *::after,
 *::before {
@@ -11,18 +14,10 @@ html {
 }
 
 body {
-  // font-family: "Inter", sans-serif;
-  font-family: 'Maven Pro', sans-serif;
-
+  font-family: $font-stack;
   text-align: center;
-  color: #414141;
-
-  background-color: #FFFBEF;
-}
-
-h1 {
-  // font-family: "Poppins", sans-serif;
-  // font-family: 'Maven Pro', sans-serif;
+  color: $color-dark;
+  background-color: $color-light;
 }
 
 a {
