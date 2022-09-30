@@ -1,0 +1,16 @@
+@use "../../styles/partials/colors" as *;
+
+.footer {
+  color: $color-light;
+  background-color: $color-accent;
+  padding-block: 2rem;
+
+  &__copyright {
+    font-weight: 600;
+  }
+    
+  &__author {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
