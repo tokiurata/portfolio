@@ -1,5 +1,4 @@
 import "./Hero.scss";
-// import avatar from "../../assets/avatar.webp";
 
 function Hero() {
   return (
@@ -18,7 +17,6 @@ function Hero() {
           I'm a lifelong learner, committed to quality and accessible code. I strongly believe in teamwork and love collaborating with a diverse, multicultural team. I'm currently focusing on <span className="hero__body--span">React</span>, <span className="hero__body--span">Redux</span>, and <span className="hero__body--span">TypeScript</span>.
         </p>
       </div>
-      {/* <img className="avatar" src={avatar} alt="Toki Urata"></img> */}
     </div>
   );
 }
