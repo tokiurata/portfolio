@@ -1,0 +1,36 @@
+@use "../../styles/partials/colors" as *;
+
+.projects {
+  color: $color-light;
+  background-color: $color-accent;
+  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+  padding-top: 10rem;
+  padding-bottom: 4rem;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 5rem;
+
+  &__copy {
+    max-width: 500px;
+    text-align: left;
+  }
+
+  &__header {
+
+  }
+
+  &__body {
+    margin-block: 1rem;
+  }
+
+  &__image-container {
+    background-color: $color-light;
+    width: 360px;
+    height: 240px;
+    border-radius: 5px;
+  }
+}
