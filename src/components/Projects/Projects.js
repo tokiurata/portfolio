@@ -18,7 +18,7 @@ function Projects() {
       />
       <Project
         title="Bandsite"
-        description="Fully responsive website for a band created using JavaScript, DOM manipulation, Sass, BEM methodology, and Axios."
+        description="Fully responsive website for a band created with JavaScript, DOM manipulation, Sass, BEM methodology, and SoundCloud integration."
         image={bandsite}
         imageSmall={bandsiteSmall}
       />
