@@ -12,13 +12,13 @@ function Projects() {
       <h3 className="projects__title">Projects</h3>
       <Project
         title="BrainFlix"
-        description="Fully responsive SPA for a social video network using React, REST API, and Axios."
+        description="Fully responsive SPA for a social video network created with React, REST API, and Axios."
         image={brainflix}
         imageSmall={brainflixSmall}
       />
       <Project
         title="Bandsite"
-        description="Fully responsive website for a band created with JavaScript, DOM manipulation, Sass, BEM methodology, and SoundCloud integration."
+        description="Fully responsive website for a band using JavaScript, DOM manipulation, Sass, BEM methodology, and SoundCloud integration."
         image={bandsite}
         imageSmall={bandsiteSmall}
       />
