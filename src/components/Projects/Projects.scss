@@ -4,14 +4,12 @@
   color: $color-light;
   background-color: $color-accent;
   clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
-  padding-top: 4.3rem;
-  padding-bottom: 4rem;
+  padding-block: 5rem;
 
   &__title {
     font-size: 1.875rem;
     letter-spacing: 2px;
     text-transform: uppercase;
-    margin-top: 3rem;
-    margin-bottom: 4rem;
+    margin-block: 4rem;
   }
 }
