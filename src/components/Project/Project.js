@@ -10,6 +10,12 @@ function Project(props) {
         <p className="project__body">
           {props.description}
         </p>
+        <a className="project__link" href={props.liveSiteUrl}>
+          View live site
+        </a>
+        <a className="project__link" href={props.codeUrl}>
+          View code
+        </a>
       </div>
       <div className="project__image-container">
         <img className="project__image" src={props.image} alt={props.title} />

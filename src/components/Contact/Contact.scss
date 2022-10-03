@@ -14,8 +14,8 @@
   &__content {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-    width: 900px;
+    align-items: center;
+    max-width: 1000px;
     margin-inline: auto;
     padding-block: 2rem;
   }
@@ -27,10 +27,11 @@
     border-radius: 50%;
   }
 
-  &__copy {
+  &__copy-container {
     text-align: left;
     font-style: normal;
-    transform: translateX(10px)translateY(10px);
+    display: flex;
+    gap: 7rem;
   }
 
   &__header {
@@ -40,12 +41,18 @@
   }
 
   &__body {
-    font-size: 28px;
+    font-size: 1.5rem;
     margin-bottom: 1.8rem;
+    transition: all .2s;
+
+    &:hover {
+      opacity: .6;
+    }
   }
 
   &__icon {
-    width: 130px;
-    transform: translateX(-34px)translateY(-5px);
+    width: 80px;
+    height: 80px;
+    transform: translateX(-10px);
   }
 }

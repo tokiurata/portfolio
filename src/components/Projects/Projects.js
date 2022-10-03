@@ -15,15 +15,22 @@ function Projects() {
         description="Fully responsive SPA for a social video network created with React, REST API, and Axios."
         image={brainflix}
         imageSmall={brainflixSmall}
+        liveSiteUrl="https://toki-urata-brainflix.netlify.app/"
+        codeUrl="https://github.com/TokiUrata/toki-urata-brainflix"
       />
+
       <Project
         title="Bandsite"
         description="Fully responsive website for a band using JavaScript, DOM manipulation, Sass, BEM methodology, and SoundCloud integration."
         image={bandsite}
         imageSmall={bandsiteSmall}
+        liveSiteUrl="https://toki-urata-bandsite.netlify.app/"
+        codeUrl="https://github.com/TokiUrata/toki-urata-bandsite"
       />
     </div>
   );
 }
 
 export default Projects;
+
+

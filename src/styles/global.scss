@@ -13,6 +13,7 @@ html {
   box-sizing: border-box;
   color: $color-primary-dark;
   background-color: $color-primary-light;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -50,8 +51,8 @@ p {
 a {
   text-decoration: none;
   color: inherit;
-  cursor: pointer;
   display: block;
+  cursor: pointer;
 }
 
 ul,
@@ -60,8 +61,11 @@ ol {
 }
 
 button {
+  font-size: 1rem;
+  font-weight: 600;
   border: none;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .underline {

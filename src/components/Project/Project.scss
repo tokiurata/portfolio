@@ -18,9 +18,29 @@
   }
 
   &__body {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     margin-block: 1.5rem;
     line-height: 1.5;
+  }
+
+  &__link {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $color-primary-light;
+    border: 2px solid $color-primary-light;
+    padding: 1rem 1.8rem;
+    border-radius: 30px;
+    margin-top: 1rem;
+    margin-right: 3rem;
+    transition: background-color .25s;
+    cursor: pointer;
+  
+    &:hover {
+      color: $color-primary-dark;
+      background-color: $color-primary-light;
+    }
   }
 
   &__image-container {
