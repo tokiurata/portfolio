@@ -1,12 +1,10 @@
 @use "../../styles/partials/colors" as *;
 
 .contact {
-  color: $color-light;
-  background-color: $color-accent;
-  height: 500px;
+  color: $color-primary-light;
+  background-color: $color-bg-dark;
 
   &__title {
-    font-size: 1.875rem;
     letter-spacing: 2px;
     text-transform: uppercase;
     padding-top: 4rem;
@@ -15,10 +13,11 @@
 
   &__content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-end;
     width: 900px;
     margin-inline: auto;
+    padding-block: 2rem;
   }
   
   &__image {
@@ -31,17 +30,18 @@
   &__copy {
     text-align: left;
     font-style: normal;
+    transform: translateX(10px)translateY(10px);
   }
 
   &__header {
-    font-size: 1.75rem;
+    font-size: 2rem;
     margin-bottom: .5rem;
     letter-spacing: 1px;
   }
 
   &__body {
-    font-size: 1.4rem;
-    margin-bottom: 1.6rem;
+    font-size: 28px;
+    margin-bottom: 1.8rem;
   }
 
   &__icon {

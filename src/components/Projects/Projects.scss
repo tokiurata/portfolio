@@ -1,13 +1,12 @@
 @use "../../styles/partials/colors" as *;
 
 .projects {
-  color: $color-light;
-  background-color: $color-accent;
+  color: $color-primary-light;
+  background-color: $color-bg-dark;
   clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
   padding-block: 5rem;
 
   &__title {
-    font-size: 1.875rem;
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-block: 4rem;

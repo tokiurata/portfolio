@@ -14,12 +14,11 @@
   }
 
   &__header {
-    font-size: 1.875rem;
     letter-spacing: 1px;
   }
 
   &__body {
-    font-size: 1.375rem;
+    font-size: 1.75rem;
     margin-block: 1.5rem;
     line-height: 1.5;
   }
@@ -31,12 +30,12 @@
   &__image {
     width: 380px;
     border-radius: 5px;
-    border: 2px solid $color-light;
+    border: 2px solid $color-primary-light;
 
     &--small {
       width: 160px;
       border-radius: 5px;
-      border: 2px solid $color-light;
+      border: 2px solid $color-primary-light;
       transform: translateX(-60px) translateY(30px);
     }
   }

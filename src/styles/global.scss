@@ -11,17 +11,36 @@
 
 html {
   box-sizing: border-box;
+  color: $color-primary-dark;
+  background-color: $color-primary-light;
 }
 
 body {
   font-family: $font-stack;
   text-align: center;
-  color: $color-dark;
-  background-color: $color-light;
+}
+
+h1 {
+  font-size: 2.1rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 2.1rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 2.2rem;
 }
 
 p {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
 }
 
 a {

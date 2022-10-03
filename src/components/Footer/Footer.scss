@@ -1,8 +1,8 @@
 @use "../../styles/partials/colors" as *;
 
 .footer {
-  color: $color-light;
-  background-color: $color-accent;
+  color: $color-primary-light;
+  background-color: $color-bg-dark;
   padding-block: 2rem;
 
   &__copyright {
@@ -10,7 +10,7 @@
   }
     
   &__author {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 500;
   }
 }
