@@ -15,7 +15,7 @@ import "./TechStack.scss";
 
 function TechStack() {
   return (
-    <div className="techstack">
+    <div className="techstack" id="techstack">
       <h3 className="techstack__title">Tech Stack</h3>
       <div className="techs">
         <figure className="tech">

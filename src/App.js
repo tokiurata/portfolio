@@ -11,10 +11,12 @@ function App() {
   return (
     <div className="app">
       <HeaderNav />
-      <Hero />
-      <Projects />
-      <TechStack />
-      <Contact />
+      <main>
+        <Hero />
+        <Projects />
+        <TechStack />
+        <Contact />
+      </main>
       <Footer />
     </div>
   );
