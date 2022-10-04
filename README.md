@@ -3,12 +3,10 @@
 ## Table of contents
 
 - [Overview](#overview)
+  - [Functionality](#functionality)
   - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
+  - [Link](#link)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
 
 ## Overview
