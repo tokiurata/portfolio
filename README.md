@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Portfolio - Home page](/assets/images/screenshot.png)
+![Portfolio - Home page](/src/assets/images/screenshot.png)
 
 ### Link
 
