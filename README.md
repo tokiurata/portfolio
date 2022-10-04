@@ -31,15 +31,16 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
-- BEM methodology
-- Flexbox
-- Mobile-first workflow
-- JavaScript
 - React
+- JavaScript
+- CSS
+- Sass
+- BEM methodology
+- Semantic HTML5 markup
+- Mobile-first workflow
 
 ## Author
 
-Toki Urata - Front End Web Developer based in Canada 🇨🇦
+Toki Urata - Front End Developer based in Canada 🇨🇦
 
 - Email - [tokiurata@outlook.com](mailto:tokiurata@outlook.com)
