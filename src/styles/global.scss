@@ -1,5 +1,6 @@
 @use "./partials/colors" as *;
 @use "./partials/variables" as *;
+@use "./partials/mixins" as *;
 
 *,
 *::after,
@@ -22,26 +23,46 @@ body {
 }
 
 main {
-  margin-top: 8rem;
+  margin-top: 7rem;
+
+  @include tablet {
+   margin-top: 8rem;
+  }
 }
 
 h1 {
-  font-size: 1.9rem;
   font-weight: 900;
+  font-size: 1.5rem;
+
+  @include tablet {
+    font-size: 1.9rem;
+  }
 }
 
 h2 {
-  font-size: 2.3rem;
+  font-size: 1.8rem;
   font-weight: 700;
+
+  @include tablet {
+    font-size: 2.3rem;
+  }
 }
 
 h3 {
-  font-size: 2.1rem;
+  font-size: 1.7rem;
   font-weight: 700;
+
+  @include tablet {
+    font-size: 2.1rem;
+  }
 }
 
 h4 {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
+
+  @include tablet {
+    font-size: 2.2rem;
+  }
 }
 
 p {

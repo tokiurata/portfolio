@@ -1,3 +1,5 @@
+@use "../../styles/partials/mixins" as *;
+
 .hero {
   display: flex;
   justify-content: center;
@@ -15,18 +17,27 @@
     }
 
     &--big {
-      font-size: 2.8rem;
+      font-size: 2.3rem;
       padding-bottom: 7px;
       text-decoration: underline;
       text-underline-offset: 8px;
+
+      @include tablet {
+        font-size: 2.8rem;
+        text-underline-offset: 8px;
+      }
     }
   }
 
   &__body {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 1.55;
+    padding-inline: 3rem;
     margin-top: 2rem;
-    margin-bottom: 2rem;
+
+    @include tablet {
+     font-size: 1.5rem;
+    }
 
     &--span {
       text-decoration: underline;
@@ -34,8 +45,4 @@
     }
   }
 
-}
-
-.avatar {
-  margin-top: 3rem;
 }

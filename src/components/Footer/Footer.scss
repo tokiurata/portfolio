@@ -1,4 +1,5 @@
 @use "../../styles/partials/colors" as *;
+@use "../../styles/partials/mixins" as *;
 
 .footer {
   color: $color-primary-light;
@@ -10,7 +11,11 @@
   }
     
   &__author {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 500;
+
+    @include tablet {
+    font-size: 1.5rem;
+    }
   }
 }

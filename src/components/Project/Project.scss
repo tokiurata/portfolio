@@ -1,16 +1,52 @@
 @use "../../styles/partials/colors" as *;
+@use "../../styles/partials/mixins" as *;
 
 .project {
+  position: relative;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  max-width: 1200px;
+  max-width: 600px;
+  padding-bottom: 4rem;
   margin-bottom: 7rem;
   margin-inline: auto;
 
+  &:not(:last-of-type):before {
+    content: "";
+    position: absolute;
+    height: 1rem;
+    width: 70%;
+    bottom: 0;
+    left: 15%;
+    border-bottom: 2px solid $color-primary-light;
+    opacity: .5;
+  }
+
+  @include tablet {
+    max-width: 900px;
+
+  }
+  
+  @include desktop {
+    flex-direction: row;
+    max-width: 1200px;
+
+    &:nth-of-type(2) .project__copy {
+      order: -1;
+    }
+  }
+
   &__copy {
-    min-width: 530px;
     text-align: left;
-    padding-inline: 2rem;
+    padding-inline: 3rem;
+
+    @include tablet {
+      max-width: 800px;
+    }
+
+    @include desktop {
+      max-width: 700px;
+    }
   }
 
   &__header {
@@ -18,25 +54,34 @@
   }
 
   &__body {
-    font-size: 1.5rem;
-    margin-block: 1.5rem;
+    margin-block: 1.2rem;
     line-height: 1.5;
+
+    @include tablet {
+      font-size: 1.5rem;
+    }
   }
 
   &__link,
   &__link:visited {
+    font-size: .9rem;
     display: inline-block;
-    font-size: 1.1rem;
     font-weight: 700;
     text-transform: uppercase;
     color: $color-primary-light;
     border: 2px solid $color-primary-light;
-    padding: 1rem 1.8rem;
+    padding: .8rem 1.5rem;
     border-radius: 30px;
     margin-top: 1rem;
-    margin-right: 3rem;
+    margin-right: 2rem;
     transition: all .2s;
     cursor: pointer;
+
+    @include tablet {
+      font-size: 1.1rem;
+      padding: 1rem 1.8rem;
+      margin-right: 3rem;
+    }
   
     &:hover {
       color: $color-primary-dark;
@@ -46,22 +91,34 @@
   }
 
   &__image-container {
-    min-width: 600px;
+    padding-left: 3.5rem;
+    margin-bottom: 4rem;
+    
+    @include desktop {
+      min-width: 600px;
+    }
   }
 
   &__image {
-    width: 380px;
+    width: 300px;
     border-radius: 5px;
     border: 2px solid $color-primary-light;
+    
+    @include tablet {
+      width: 380px;
+
+    }
 
     &--small {
-      width: 160px;
+      width: 120px;
       border-radius: 5px;
       border: 2px solid $color-primary-light;
       transform: translateX(-60px) translateY(30px);
+
+      @include tablet {
+        width: 160px;
+
+      }
     }
-  }
-  &:nth-of-type(2) .project__copy {
-    order: 2;
   }
 }
