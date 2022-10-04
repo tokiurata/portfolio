@@ -23,10 +23,11 @@
     line-height: 1.5;
   }
 
-  &__link {
+  &__link,
+  &__link:visited {
     display: inline-block;
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: 1.1rem;
+    font-weight: 700;
     text-transform: uppercase;
     color: $color-primary-light;
     border: 2px solid $color-primary-light;
@@ -34,12 +35,13 @@
     border-radius: 30px;
     margin-top: 1rem;
     margin-right: 3rem;
-    transition: background-color .25s;
+    transition: all .2s;
     cursor: pointer;
   
     &:hover {
       color: $color-primary-dark;
-      background-color: $color-primary-light;
+      background-color: $color-accent-light;
+      border: 2px solid $color-accent-light;
     }
   }
 
