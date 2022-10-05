@@ -53,12 +53,8 @@ h3 {
   font-weight: 700;
   margin-block: $gap-150;
 
-  @include mobile {
-  font-size: 1.6rem;
-  }
-
   @include tablet {
-    // font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -102,12 +98,16 @@ ol {
 }
 
 li {
-  font-size: .75rem;
+  font-size: .8rem;
   font-weight: 800;
   white-space: nowrap;
 
   @include mobile {
-  font-size: .9rem;
+    font-size: .9rem;
+  }
+
+  @include tablet {
+    font-size: .9rem;
   }
 }
 

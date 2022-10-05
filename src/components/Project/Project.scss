@@ -8,10 +8,10 @@
   flex-direction: column;
   align-items: center;
   max-width: 600px;
-  padding-bottom: $gap-300;
+  padding-bottom: $gap-250;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: $gap-300;
+  margin-bottom: $gap-250;
 
   &:not(:last-of-type):before {
     content: "";
@@ -23,13 +23,19 @@
     border-bottom: 5px solid $color-primary-dark;
     opacity: .5;
   }
+
   &:last-of-type {
     padding-bottom: $gap-400;
   }
 
+  @include mobile {
+    &:last-of-type {
+     margin-bottom: 0;
+    }
+  }
+
   @include tablet {
     max-width: 900px;
-
   }
   
   @include desktop {
@@ -45,8 +51,12 @@
     text-align: left;
     margin-top: $gap-150;
 
+    @include mobile {
+      margin-top: $gap-300;
+      max-width: 500px;
+    }
+
     @include tablet {
-      max-width: 800px;
     }
 
     @include desktop {
@@ -107,6 +117,10 @@
 
   &__image-container {
     // border: 2px solid yellow;
+
+    @include mobile {
+      transform: translateX(30px);
+    }
     
     @include desktop {
 
@@ -134,8 +148,8 @@
       display: none;
       
       @include mobile {
-        transform: translateX(-60px) translateY(30px);
         display: inline-block;
+        transform: translateX(-60px) translateY(30px);
 
       }
 

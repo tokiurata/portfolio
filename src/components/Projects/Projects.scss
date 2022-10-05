@@ -12,6 +12,9 @@
 
   @include mobile {
     clip-path: polygon(0 4%, 100% 0, 100% 96%, 0 100%);
+    padding-left: $gap-150;
+    padding-right: $gap-150;
+    padding-top: $gap-150;
   }
 
   @include tablet {
@@ -26,8 +29,8 @@
     letter-spacing: 2px;
     text-transform: uppercase;
 
-    @include tablet {
-
+    @include mobile {
+      margin-top: $gap-200;
     }
   }
 }

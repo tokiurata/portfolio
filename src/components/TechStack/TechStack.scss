@@ -4,6 +4,13 @@
 
 .techstack {
   padding-bottom: $gap-300;
+  margin-left: $gap-50;
+  margin-right: $gap-50;
+
+  @include mobile {
+    margin-left: $gap-100;
+    margin-right: $gap-100;
+  }
   
   &__title {
     text-transform: uppercase;
