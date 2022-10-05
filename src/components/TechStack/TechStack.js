@@ -16,56 +16,58 @@ import "./TechStack.scss";
 function TechStack() {
   return (
     <div className="techstack" id="techstack">
-      <h3 className="techstack__title">Tech Stack</h3>
-      <div className="techs">
-        <figure className="tech">
-          <img className="tech__image tech__image--react" src={reactIcon} alt="React" />
-          <figcaption className="tech__image-caption">React</figcaption>
-        </figure>
-        <figure className="tech">
-          <img className="tech__image tech__image--redux" src={reduxIcon} alt="Redux" />
-          <figcaption className="tech__image-caption">Redux</figcaption>
-        </figure>
-        <figure className="tech">
-          <img className="tech__image tech__image--javascript" src={javascriptIcon} alt="JavaScript" />
-          <figcaption className="tech__image-caption">JavaScript</figcaption>
-        </figure>
-        <figure className="tech">
-          <img className="tech__image tech__image--typescript" src={typescriptIcon} alt="TypeScript" />
-          <figcaption className="tech__image-caption">TypeScript</figcaption>
-        </figure>
-        <figure className="tech">
-          <img className="tech__image tech__image--html" src={htmlIcon} alt="HTML" />
-          <figcaption className="tech__image-caption">HTML</figcaption>
-        </figure>
-        <figure className="tech">
-          <img className="tech__image tech__image--css" src={cssIcon} alt="CSS" />
-          <figcaption className="tech__image-caption">CSS</figcaption>
-        </figure>
-        <figure className="tech">
-          <img className="tech__image tech__image--sass" src={sassIcon} alt="Sass" />
-          <figcaption className="tech__image-caption">Sass</figcaption>
-        </figure>
-        <figure className="tech">
-          <img className="tech__image tech__image--npm" src={npmIcon} alt="Node Package Manager" />
-          <figcaption className="tech__image-caption">Node Package Manager</figcaption>
-        </figure>
-        <figure className="tech">
-          <img className="tech__image tech__image--node" src={nodeIcon} alt="Node" />
-          <figcaption className="tech__image-caption">Node</figcaption>
-        </figure>
-        <figure className="tech">
-          <img className="tech__image tech__image--express" src={expressIcon} alt="Express" />
-          <figcaption className="tech__image-caption">Express</figcaption>
-        </figure>
-        <figure className="tech">
-          <img className="tech__image tech__image--axios" src={axiosIcon} alt="Axios" />
-          <figcaption className="tech__image-caption">Axios</figcaption>
-        </figure>
-        <figure className="tech">
-          <img className="tech__image tech__image--reactrouter" src={reactrouterIcon} alt="React Router" />
-          <figcaption className="tech__image-caption">React Router</figcaption>
-        </figure>
+      <div className="techstack__container">
+        <h3 className="techstack__title">Tech Stack</h3>
+        <div className="techs">
+          <figure className="tech">
+            <img className="tech__image tech__image--react" src={reactIcon} alt="React" />
+            <figcaption className="tech__image-caption">React</figcaption>
+          </figure>
+          <figure className="tech">
+            <img className="tech__image tech__image--redux" src={reduxIcon} alt="Redux" />
+            <figcaption className="tech__image-caption">Redux</figcaption>
+          </figure>
+          <figure className="tech">
+            <img className="tech__image tech__image--javascript" src={javascriptIcon} alt="JavaScript" />
+            <figcaption className="tech__image-caption">JavaScript</figcaption>
+          </figure>
+          <figure className="tech">
+            <img className="tech__image tech__image--typescript" src={typescriptIcon} alt="TypeScript" />
+            <figcaption className="tech__image-caption">TypeScript</figcaption>
+          </figure>
+          <figure className="tech">
+            <img className="tech__image tech__image--html" src={htmlIcon} alt="HTML" />
+            <figcaption className="tech__image-caption">HTML</figcaption>
+          </figure>
+          <figure className="tech">
+            <img className="tech__image tech__image--css" src={cssIcon} alt="CSS" />
+            <figcaption className="tech__image-caption">CSS</figcaption>
+          </figure>
+          <figure className="tech">
+            <img className="tech__image tech__image--sass" src={sassIcon} alt="Sass" />
+            <figcaption className="tech__image-caption">Sass</figcaption>
+          </figure>
+          <figure className="tech">
+            <img className="tech__image tech__image--npm" src={npmIcon} alt="Node Package Manager" />
+            <figcaption className="tech__image-caption">Node Package Manager</figcaption>
+          </figure>
+          <figure className="tech">
+            <img className="tech__image tech__image--node" src={nodeIcon} alt="Node" />
+            <figcaption className="tech__image-caption">Node</figcaption>
+          </figure>
+          <figure className="tech">
+            <img className="tech__image tech__image--express" src={expressIcon} alt="Express" />
+            <figcaption className="tech__image-caption">Express</figcaption>
+          </figure>
+          <figure className="tech">
+            <img className="tech__image tech__image--axios" src={axiosIcon} alt="Axios" />
+            <figcaption className="tech__image-caption">Axios</figcaption>
+          </figure>
+          <figure className="tech">
+            <img className="tech__image tech__image--reactrouter" src={reactrouterIcon} alt="React Router" />
+            <figcaption className="tech__image-caption">React Router</figcaption>
+          </figure>
+        </div>
       </div>
     </div> 
   );

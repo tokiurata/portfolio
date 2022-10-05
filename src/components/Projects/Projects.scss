@@ -9,20 +9,29 @@
   padding-left: $gap-100;
   padding-right: $gap-100;
   padding-top: $gap-100;
+  padding-bottom: $gap-100;
+
+  border: 2px solid orange;
 
   @include mobile {
     clip-path: polygon(0 4%, 100% 0, 100% 96%, 0 100%);
     padding-left: $gap-150;
     padding-right: $gap-150;
-    padding-top: $gap-150;
+    padding-top: $gap-200;
   }
 
   @include tablet {
-    clip-path: polygon(0 6%, 100% 0, 100% 94%, 0 100%);
+    clip-path: polygon(0 5%, 100% 0, 100% 94%, 0 100%);
+    padding-top: $gap-350;
+    padding-bottom: $gap-350;
   }
 
   @include desktop {
-    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    clip-path: polygon(0 7%, 100% 0, 100% 90%, 0 100%);
+  }
+
+  @include desktop-large {
+    clip-path: polygon(0 8.5%, 100% 0, 100% 90%, 0 100%);
   }
 
   &__title {
@@ -30,7 +39,6 @@
     text-transform: uppercase;
 
     @include mobile {
-      margin-top: $gap-200;
     }
   }
 }

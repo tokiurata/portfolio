@@ -3,10 +3,6 @@ import "./Project.scss";
 function Project(props) {
   return (
     <div className="project">
-      <div className="project__image-container">
-        <img className="project__image" src={props.image} alt={props.title} />
-        <img className="project__image--small" src={props.imageSmall} alt={props.title} />
-      </div>
       <div className="project__copy">
         <h4 className="project__header">
           {props.title}
@@ -20,6 +16,10 @@ function Project(props) {
         <a className="project__link" href={props.codeUrl}>
           View code
         </a>
+      </div>
+      <div className="project__image-container">
+        <img className="project__image" src={props.image} alt={props.title} />
+        <img className="project__image--small" src={props.imageSmall} alt={props.title} />
       </div>
     </div>
   );

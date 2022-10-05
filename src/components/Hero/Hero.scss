@@ -18,13 +18,8 @@
   }
 
   &__header {
-    font-size: 1.2rem;
     line-height: 1.4;
     white-space: nowrap;
-
-    @include mobile {
-      font-size: 1.3rem;
-    }
 
     &--span {
       opacity: .9;
@@ -42,8 +37,8 @@
       }
 
       @include tablet {
-        font-size: 2.2rem;
-        text-underline-offset: 8px;
+        font-size: 2rem;
+        text-underline-offset: 7px;
       }
     }
   }
@@ -56,7 +51,6 @@
      }
 
     @include tablet {
-     font-size: 1.5rem;
     }
 
     &--span {

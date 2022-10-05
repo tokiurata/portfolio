@@ -21,32 +21,34 @@
 
     @include tablet {
       flex-direction: row;
-      max-width: 850px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     @include desktop {
-      max-width: 1300px;
+      // max-width: 600px;
     }
   }
   
   &__image {
     background-color: $color-accent-light;
     border: 4px solid $color-accent-dark;
-    max-width: 170px;
+    width: 170px;
     border-radius: 50%;
     margin-bottom: $gap-100;
 
     @include mobile {
-      max-width: 180px;
+      width: 180px;
     }
 
-    @include tablet {
-      width: 280px;
-    }
+    // @include tablet {
+    //   width: 280px;
+    // }
 
-    @include desktop {
-      width: 280px;
-    }
+    // @include desktop {
+    //   width: 280px;
+    // }
   }
 
   &__copy-container {
@@ -54,10 +56,24 @@
     font-style: normal;
     display: flex;
     flex-direction: column;
-    gap: $gap-150;
+
+    @include tablet {
+      transform: translateX(10px);
+    }
 
     @include desktop {
       flex-direction: row;
+    }
+  }
+
+  &__copy {
+    &:first-of-type {
+      margin-right: $gap-150;
+    }
+    @include desktop {
+      &:first-of-type {
+        margin-right: $gap-300;
+      }
     }
   }
 
