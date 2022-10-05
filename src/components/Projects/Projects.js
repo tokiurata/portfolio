@@ -18,7 +18,6 @@ function Projects() {
         liveSiteUrl="https://toki-urata-brainflix.netlify.app/"
         codeUrl="https://github.com/TokiUrata/toki-urata-brainflix"
       />
-
       <Project
         title="Bandsite"
         description="Fully responsive website for a band using JavaScript, DOM manipulation, Sass, BEM methodology, and SoundCloud integration."

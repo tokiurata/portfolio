@@ -1,14 +1,15 @@
 @use "../../styles/partials/colors" as *;
 @use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
 
 .techstack {
+  padding-bottom: $gap-300;
+  
   &__title {
-    letter-spacing: 2px;
     text-transform: uppercase;
+    letter-spacing: 2px;
     display: flex;
     flex-direction: column;
-    margin-top: .3rem;
-    margin-bottom: 3rem;
   }
 }
 
@@ -16,15 +17,18 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
-  padding-inline: 5rem;
-  padding-bottom: 3rem;
-  margin-inline: auto;
-  margin-bottom: 4rem;
+  gap: 1.2rem;
+
+  @include mobile {
+
+  }
+
+  @include tablet {
+
+  }
 
   @include desktop {
     max-width: 1400px;
-
   }
 }
 
@@ -35,24 +39,130 @@
   align-items: center;
   background-color: $color-accent-light;
   border-radius: 4px;
-  width: 140px;
-  height: 140px;
-  padding: .5rem;
+  width: 120px;
+  height: 120px;
+
+  @include mobile {
+    width: 140px;
+    height: 140px;
+  }
 
   @include tablet {
     width: 180px;
     height: 180px;
   }
 
+  @include desktop {
+    width: 180px;
+    height: 180px;
+  }
+
   &__image {
-    width: 60px;
+    width: 50px;
+
+    @include mobile {
+      width: 62px;
+    }
 
     @include tablet {
       width: 80px;
     }
 
+    @include desktop {
+      width: 80px;
+    }
+
+    &--react {
+      transform: translateY(-8px);
+
+      @include mobile {
+        transform: translateY(-8px);
+      }
+
+      @include tablet {
+        transform: translateY(-9px);
+      }
+    }
+
+    &--redux {
+      transform: translateY(-6px);
+
+      @include mobile {
+        transform: translateY(-9px);
+      }
+
+      @include tablet {
+        transform: translateY(-9px);
+      }
+    }
+
+    &--javascript {
+      transform: translateY(-4px);
+
+      @include mobile {
+        transform: translateY(-8px);
+      }
+
+      @include tablet {
+        transform: translateY(-9px);
+      }
+    }
+
+    &--typescript {
+      transform: translateY(-2px);
+
+      @include mobile {
+        transform: translateY(-8px);
+      }
+
+      @include tablet {
+        transform: translateY(-9px);
+      }
+    }
+
+    &--html {
+      transform: translateY(-2px);
+
+      @include mobile {
+        transform: translateY(-7px);
+      }
+
+      @include tablet {
+        transform: translateY(-9px);
+      }
+    }
+
+    &--css {
+      transform: translateY(-2px);
+
+      @include mobile {
+        transform: translateY(-7px);
+      }
+
+      @include tablet {
+        transform: translateY(-9px);
+      }
+    }
+
     &--sass {
-      transform: translateY(-5px);
+      width: 55px;
+      transform: translateY(-10px);
+
+      @include mobile {
+        width: 65px;
+      }
+
+      @include tablet {
+        transform: translateY(-9px);
+      }
+    }
+
+    &--npm {
+      transform: translateY(-6px);
+
+      @include mobile {
+        transform: translateY(-9px);
+      }
 
       @include tablet {
         transform: translateY(-9px);
@@ -60,17 +170,25 @@
     }
 
     &--node {
-      transform: translateY(2px);
-      width: 90px;
+      width: 75px;
+
+      @include mobile {
+        width: 80px;
+        transform: translateY(-8px);
+      }
 
       @include tablet {
-        transform: translateY(-4px);
+        transform: translateY(0px);
       }
     }
 
     &--express {
-      transform: translateY(4px);
+      transform: translateY(2px);
       width: 100px;
+
+      @include mobile {
+        transform: translateY(-8px);
+      }
 
       @include tablet {
         transform: translateY(-8px);
@@ -78,8 +196,13 @@
     }
 
     &--axios {
-      transform: translateY(20px);
-      width: 110px;
+      width: 100px;
+      transform: translateY(15px);
+
+      @include mobile {
+        width: 108px;
+        transform: translateY(10px);
+      }
 
       @include tablet {
         transform: translateY(8px);
@@ -87,7 +210,12 @@
     }
 
     &--reactrouter {
-      transform: translateY(-12px);
+      transform: translateY(-16px);
+
+      @include mobile {
+        width: 70px;
+        transform: translateY(-16px);
+      }
 
       @include tablet {
         transform: translateY(-16px);
@@ -96,16 +224,21 @@
   }
 
   &__image-caption {
-    font-size: .875rem;
+    font-size: .8rem;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-top: 2rem;
-    margin-bottom: .2rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+
+    @include mobile {
+      font-size: .875rem;
+      margin-bottom: .6rem;
+    }
 
     @include tablet {
       font-size: 1rem;
-      margin-bottom: .5rem;
+      margin-bottom: .6rem;
     }
   }
 }

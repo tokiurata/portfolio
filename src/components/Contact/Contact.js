@@ -1,4 +1,4 @@
-import avatar from "../../assets/images/avatar.webp";
+import contactImage from "../../assets/images/contact-image.webp";
 import githubIcon from "../../assets/icons/github-light.svg";
 
 import "./Contact.scss";
@@ -8,7 +8,7 @@ function Contact() {
     <div className="contact" id="contact">
       <h3 className="contact__title">Contact</h3>
       <div className="contact__content">
-        <img className="contact__image" src={avatar} alt="Toki Urata" />
+        <img className="contact__image" src={contactImage} alt="Toki Urata" />
         <address className="contact__copy-container">
           <div className="contact__copy">
             <h4 className="contact__header">Email</h4>

@@ -19,27 +19,27 @@ function TechStack() {
       <h3 className="techstack__title">Tech Stack</h3>
       <div className="techs">
         <figure className="tech">
-          <img className="tech__image" src={reactIcon} alt="React" />
+          <img className="tech__image tech__image--react" src={reactIcon} alt="React" />
           <figcaption className="tech__image-caption">React</figcaption>
         </figure>
         <figure className="tech">
-          <img className="tech__image" src={reduxIcon} alt="Redux" />
+          <img className="tech__image tech__image--redux" src={reduxIcon} alt="Redux" />
           <figcaption className="tech__image-caption">Redux</figcaption>
         </figure>
         <figure className="tech">
-          <img className="tech__image" src={javascriptIcon} alt="JavaScript" />
+          <img className="tech__image tech__image--javascript" src={javascriptIcon} alt="JavaScript" />
           <figcaption className="tech__image-caption">JavaScript</figcaption>
         </figure>
         <figure className="tech">
-          <img className="tech__image" src={typescriptIcon} alt="TypeScript" />
+          <img className="tech__image tech__image--typescript" src={typescriptIcon} alt="TypeScript" />
           <figcaption className="tech__image-caption">TypeScript</figcaption>
         </figure>
         <figure className="tech">
-          <img className="tech__image" src={htmlIcon} alt="HTML" />
+          <img className="tech__image tech__image--html" src={htmlIcon} alt="HTML" />
           <figcaption className="tech__image-caption">HTML</figcaption>
         </figure>
         <figure className="tech">
-          <img className="tech__image" src={cssIcon} alt="CSS" />
+          <img className="tech__image tech__image--css" src={cssIcon} alt="CSS" />
           <figcaption className="tech__image-caption">CSS</figcaption>
         </figure>
         <figure className="tech">
@@ -47,7 +47,7 @@ function TechStack() {
           <figcaption className="tech__image-caption">Sass</figcaption>
         </figure>
         <figure className="tech">
-          <img className="tech__image" src={npmIcon} alt="Node Package Manager" />
+          <img className="tech__image tech__image--npm" src={npmIcon} alt="Node Package Manager" />
           <figcaption className="tech__image-caption">Node Package Manager</figcaption>
         </figure>
         <figure className="tech">

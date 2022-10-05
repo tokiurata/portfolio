@@ -23,16 +23,16 @@ body {
 }
 
 main {
-  margin-top: 7rem;
+  margin-top: $gap-300;
+  padding-top: $gap-200;
 
   @include tablet {
-   margin-top: 8rem;
   }
 }
 
 h1 {
+  font-size: 1.3rem;
   font-weight: 900;
-  font-size: 1.5rem;
 
   @include tablet {
     font-size: 1.9rem;
@@ -49,36 +49,66 @@ h2 {
 }
 
 h3 {
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   font-weight: 700;
+  margin-block: $gap-150;
+
+  @include mobile {
+  font-size: 1.6rem;
+  }
 
   @include tablet {
-    font-size: 2.1rem;
+    // font-size: 1.8rem;
   }
 }
 
 h4 {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
+  margin-bottom: $gap-50;
+
+  @include mobile {
+    font-size: 1.5rem;
+  }
 
   @include tablet {
-    font-size: 2.2rem;
+    // font-size: 2rem;
   }
 }
 
 p {
-  font-size: 1.25rem;
+  font-size: 1rem;
+  margin-bottom: $gap-100;
+
+  @include mobile {
+    font-size: 1.1rem;
+  }
+
+  @include tablet {
+    // font-size: 2rem;
+  }
 }
 
 a {
   text-decoration: none;
   color: inherit;
   display: block;
+  white-space: nowrap;
   cursor: pointer;
 }
 
 ul,
 ol {
   list-style: none;
+}
+
+li {
+  font-size: .75rem;
+  font-weight: 800;
+  white-space: nowrap;
+
+  @include mobile {
+  font-size: .9rem;
+  }
 }
 
 button {

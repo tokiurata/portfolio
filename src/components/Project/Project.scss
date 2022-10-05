@@ -1,5 +1,6 @@
 @use "../../styles/partials/colors" as *;
 @use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
 
 .project {
   position: relative;
@@ -7,19 +8,23 @@
   flex-direction: column;
   align-items: center;
   max-width: 600px;
-  padding-bottom: 4rem;
-  margin-bottom: 7rem;
-  margin-inline: auto;
+  padding-bottom: $gap-300;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: $gap-300;
 
   &:not(:last-of-type):before {
     content: "";
     position: absolute;
     height: 1rem;
-    width: 70%;
+    width: 40%;
     bottom: 0;
-    left: 15%;
-    border-bottom: 2px solid $color-primary-light;
+    left: 30%;
+    border-bottom: 5px solid $color-primary-dark;
     opacity: .5;
+  }
+  &:last-of-type {
+    padding-bottom: $gap-400;
   }
 
   @include tablet {
@@ -38,7 +43,7 @@
 
   &__copy {
     text-align: left;
-    padding-inline: 3rem;
+    margin-top: $gap-150;
 
     @include tablet {
       max-width: 800px;
@@ -54,33 +59,35 @@
   }
 
   &__body {
-    margin-block: 1.2rem;
     line-height: 1.5;
+    
+    @include mobile {
+
+    }
 
     @include tablet {
-      font-size: 1.5rem;
     }
   }
 
   &__link,
   &__link:visited {
-    font-size: .9rem;
-    display: inline-block;
+    font-size: .8rem;
     font-weight: 700;
     text-transform: uppercase;
     color: $color-primary-light;
     border: 2px solid $color-primary-light;
-    padding: .8rem 1.5rem;
     border-radius: 30px;
-    margin-top: 1rem;
-    margin-right: 2rem;
-    transition: all .2s;
     cursor: pointer;
+    display: inline-block;
+    padding: .7em 1.3em;
+    transition: all .2s;
+
+    @include mobile {
+      font-size: .9rem;
+    }
 
     @include tablet {
-      font-size: 1.1rem;
-      padding: 1rem 1.8rem;
-      margin-right: 3rem;
+
     }
   
     &:hover {
@@ -90,19 +97,30 @@
     }
   }
 
+  &__link:first-of-type {
+    margin-right: $gap-50;
+
+    @include mobile {
+      margin-right: $gap-100;
+    }
+  }
+
   &__image-container {
-    padding-left: 3.5rem;
-    margin-bottom: 4rem;
+    // border: 2px solid yellow;
     
     @include desktop {
-      min-width: 600px;
+
     }
   }
 
   &__image {
-    width: 300px;
     border-radius: 5px;
     border: 2px solid $color-primary-light;
+    width: 260px;
+
+    @include mobile {
+
+    }
     
     @include tablet {
       width: 380px;
@@ -110,10 +128,16 @@
     }
 
     &--small {
-      width: 120px;
       border-radius: 5px;
       border: 2px solid $color-primary-light;
-      transform: translateX(-60px) translateY(30px);
+      width: 100px;
+      display: none;
+      
+      @include mobile {
+        transform: translateX(-60px) translateY(30px);
+        display: inline-block;
+
+      }
 
       @include tablet {
         width: 160px;

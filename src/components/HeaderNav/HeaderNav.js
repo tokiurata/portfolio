@@ -3,7 +3,7 @@ import "./HeaderNav.scss";
 function HeaderNav() {
   return (
     <nav className="headernav">
-      <h1 className="logo-name">Toki Urata</h1>
+      <h1 className="headernav__logo">Toki Urata</h1>
       <ul className="headernav__nav">
         <li className="headernav__nav-item">
           <a href="/">Home</a>

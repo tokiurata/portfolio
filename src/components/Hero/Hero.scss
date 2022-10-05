@@ -1,23 +1,27 @@
 @use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
 
 .hero {
   display: flex;
   justify-content: center;
+  padding-top: $gap-100;
+  padding-inline: $gap-100;
 
   &__copy {
-    margin-block: 2rem;
     width: 800px;
   }
 
   &__header {
+    font-size: 1.2rem;
     line-height: 1.4;
+    white-space: nowrap;
 
     &--span {
       opacity: .9;
     }
 
     &--big {
-      font-size: 2.3rem;
+      font-size: 1.65rem;
       padding-bottom: 7px;
       text-decoration: underline;
       text-underline-offset: 8px;
@@ -30,10 +34,11 @@
   }
 
   &__body {
-    font-size: 1.3rem;
     line-height: 1.55;
-    padding-inline: 3rem;
-    margin-top: 2rem;
+    margin-top: $gap-100;
+
+    @include mobile {
+     }
 
     @include tablet {
      font-size: 1.5rem;

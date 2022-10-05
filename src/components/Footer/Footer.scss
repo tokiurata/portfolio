@@ -1,21 +1,14 @@
 @use "../../styles/partials/colors" as *;
 @use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
 
 .footer {
   color: $color-primary-light;
   background-color: $color-bg-dark;
-  padding-block: 2rem;
-
-  &__copyright {
-    font-weight: 600;
-  }
-    
+  padding-block: $gap-100;
+  
   &__author {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 500;
-
-    @include tablet {
-    font-size: 1.5rem;
-    }
   }
 }
