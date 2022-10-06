@@ -17,11 +17,11 @@
     content: "";
     position: absolute;
     height: 1rem;
-    width: 40%;
-    left: 30%;
+    width: 100px;
+    left: calc(50% - 50px);
     bottom: 0;
     border-bottom: 5px solid $color-primary-dark;
-    opacity: .5;
+    opacity: .6;
   }
 
   @include mobile {
@@ -34,8 +34,8 @@
     max-width: 900px;
 
     &:not(:last-of-type):before {
-      width: 20%;
-      left: 40%;
+      width: 150px;
+      left: calc(50% - 75px);
     }
   }
   
@@ -50,9 +50,9 @@
       order: -1;
     }
 
-    &:not(:last-of-type):before {
-      display: none;
-    }
+    // &:not(:last-of-type):before {
+    //   display: none;
+    // }
   }
 
   &__copy {
