@@ -5,7 +5,8 @@ import "./Contact.scss";
 
 function Contact() {
   return (
-    <div className="contact" id="contact">
+    <div className="contact">
+      <div className="contact__ref" id="contact"></div>
       <h3 className="contact__title">Contact</h3>
       <div className="contact__content">
         <img className="contact__image" src={contactImage} alt="Toki Urata" />

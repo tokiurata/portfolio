@@ -3,27 +3,38 @@
 @use "../../styles/partials/variables" as *;
 
 .headernav {
-  width: 100%;
-  background-color: $color-primary-light;
-  position: fixed;
-  top: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: $gap-100;
-  z-index: 1000;
 
-  @include tablet {
-    flex-direction: row;
-    justify-content: space-between;
-    padding-left: $gap-200;
-    padding-right: $gap-200;
-    padding-bottom: 0;
+  &__ref {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+
   }
 
-  @include desktop-large {
-    padding-left: $gap-300;
-    padding-right: $gap-300;
+  &__container {
+    width: 100%;
+    background-color: $color-primary-light;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: $gap-100;
+    z-index: 1000;
+
+    @include tablet {
+      flex-direction: row;
+      justify-content: space-between;
+      padding-left: $gap-200;
+      padding-right: $gap-200;
+      padding-bottom: 0;
+    }
+  
+    @include desktop-large {
+      padding-left: $gap-300;
+      padding-right: $gap-300;
+    }
   }
 
   &__logo {

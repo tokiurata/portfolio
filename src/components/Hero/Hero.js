@@ -2,7 +2,7 @@ import "./Hero.scss";
 
 function Hero() {
   return (
-    <div className="hero">
+    <div className="hero" >
       <div className="hero__copy">
         <h2 className="hero__header">
           Hi! My name is <span className="hero__header--span">Toki</span>. I'm a 

@@ -8,7 +8,8 @@ import "./Projects.scss";
 
 function Projects() {
   return (
-    <div className="projects" id="projects">
+    <div className="projects">
+      <div className="projects__ref" id="projects"></div>
       <h3 className="projects__title">Projects</h3>
       <Project
         title="BrainFlix"
@@ -31,5 +32,3 @@ function Projects() {
 }
 
 export default Projects;
-
-

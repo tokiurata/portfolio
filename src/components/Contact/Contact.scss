@@ -7,6 +7,12 @@
   background-color: $color-bg-dark;
   padding-top: $gap-50;
 
+  &__ref {
+    width: 100%;
+    transform: translateY(-87px);
+    visibility: hidden;
+  }
+
   &__title {
     letter-spacing: 2px;
     text-transform: uppercase;

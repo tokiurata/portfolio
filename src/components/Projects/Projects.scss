@@ -33,6 +33,12 @@
     clip-path: polygon(0 8.5%, 100% 0, 100% 90%, 0 100%);
   }
 
+  &__ref {
+    width: 100%;
+    transform: translateY(-87px);
+    visibility: hidden;
+  }
+
   &__title {
     letter-spacing: 2px;
     text-transform: uppercase;
