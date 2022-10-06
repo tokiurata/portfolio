@@ -3,13 +3,21 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [Functionality](#functionality)
   - [Screenshot](#screenshot)
   - [Link](#link)
+  - [Functionality](#functionality)
   - [Built with](#built-with)
 - [Author](#author)
 
 ## Overview
+
+### Screenshot
+
+![Portfolio - Home page](/src/assets/images/portfolio.png)
+
+### Link
+
+- Live Site URL: (https://toki-urata-portfolio.netlify.app)
 
 ### Functionality
 
@@ -19,20 +27,12 @@ Users should be able to:
 - Interact with navigation links on all screen sizes
 - See hover states for all interactive elements on the page
 
-### Screenshot
-
-![Portfolio - Home page](/src/assets/images/screenshot.png)
-
-### Link
-
-- Live Site URL: (https://toki-urata-portfolio.netlify.app)
-
 ### Built with
 
 - React
 - JavaScript
-- CSS
-- Sass
+- CSS3
+- Sass SCSS
 - BEM methodology
 - Semantic HTML5 markup
 - Mobile-first workflow
