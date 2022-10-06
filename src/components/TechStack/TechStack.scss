@@ -5,7 +5,7 @@
 .techstack {
   background-color: $color-primary-light;
   position: relative;
-  transform: translateY(-30px);
+  transform: translateY(-10px);
   z-index: -100;
 
   &__container {
@@ -28,10 +28,12 @@
   
     @include desktop {
       max-width: 65rem;
+      transform: translateY(-10px);
     }
 
     @include desktop-large {
       max-width: 80rem;
+      transform: translateY(-15px);
     }
   }
 
