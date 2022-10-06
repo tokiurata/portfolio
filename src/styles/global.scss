@@ -46,6 +46,10 @@ h2 {
   @include tablet {
     font-size: 1.4rem;
   }
+
+  @include desktop-large {
+    font-size: 1.7rem;
+  }
 }
 
 h3 {
@@ -53,8 +57,8 @@ h3 {
   font-weight: 700;
   margin-block: $gap-150;
 
-  @include tablet {
-    // font-size: 1.6rem;
+  @include desktop-large {
+    font-size: 1.6rem;
   }
 }
 
@@ -66,8 +70,8 @@ h4 {
     font-size: 1.5rem;
   }
 
-  @include tablet {
-    // font-size: 2rem;
+  @include desktop-large {
+    font-size: 1.7rem;
   }
 }
 
@@ -79,8 +83,8 @@ p {
     font-size: 1.1rem;
   }
 
-  @include tablet {
-    // font-size: 2rem;
+  @include desktop-large {
+    font-size: 1.3rem;
   }
 }
 

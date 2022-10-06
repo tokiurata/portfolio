@@ -44,6 +44,7 @@
     }
   
     @include desktop {
+      max-width: 75rem;
     }
   }
 
@@ -72,6 +73,10 @@
   @include desktop {
     max-width: 1400px;
   }
+
+  @include desktop-large {
+    // max-width: 1400px;
+  }
 }
 
 .tech {
@@ -94,9 +99,9 @@
     // height: 180px;
   }
 
-  @include desktop {
-    // width: 180px;
-    // height: 180px;
+  @include desktop-large {
+    width: 160px;
+    height: 160px;
   }
 
   &__image {
@@ -106,12 +111,8 @@
       width: 62px;
     }
 
-    @include tablet {
-      // width: 80px;
-    }
-
-    @include desktop {
-      // width: 80px;
+    @include desktop-large {
+      width: 74px;
     }
 
     &--react {
@@ -121,8 +122,9 @@
         transform: translateY(-8px);
       }
 
-      @include tablet {
-        // transform: translateY(-9px);
+      @include desktop-large {
+        width: 78px;
+        transform: translateY(-12px);
       }
     }
 
@@ -133,8 +135,8 @@
         transform: translateY(-9px);
       }
 
-      @include tablet {
-        // transform: translateY(-9px);
+      @include desktop-large {
+        transform: translateY(-12px);
       }
     }
 
@@ -144,10 +146,6 @@
       @include mobile {
         transform: translateY(-8px);
       }
-
-      @include tablet {
-        // transform: translateY(-9px);
-      }
     }
 
     &--typescript {
@@ -155,10 +153,6 @@
 
       @include mobile {
         transform: translateY(-8px);
-      }
-
-      @include tablet {
-        // transform: translateY(-9px);
       }
     }
 
@@ -168,10 +162,6 @@
       @include mobile {
         transform: translateY(-7px);
       }
-
-      @include tablet {
-        // transform: translateY(-9px);
-      }
     }
 
     &--css {
@@ -179,10 +169,6 @@
 
       @include mobile {
         transform: translateY(-7px);
-      }
-
-      @include tablet {
-        // transform: translateY(-9px);
       }
     }
 
@@ -194,8 +180,9 @@
         width: 65px;
       }
 
-      @include tablet {
-        // transform: translateY(-9px);
+      @include desktop-large {
+        width: 76px;
+        transform: translateY(-17px);
       }
     }
 
@@ -206,8 +193,8 @@
         transform: translateY(-9px);
       }
 
-      @include tablet {
-        // transform: translateY(-9px);
+      @include desktop-large {
+        transform: translateY(-16px);
       }
     }
 
@@ -219,21 +206,23 @@
         transform: translateY(-8px);
       }
 
-      @include tablet {
-        // transform: translateY(0px);
+      @include desktop-large {
+        width: 92px;
+        transform: translateY(-14px);
       }
     }
 
     &--express {
-      transform: translateY(2px);
       width: 100px;
+      transform: translateY(2px);
 
       @include mobile {
         transform: translateY(-8px);
       }
 
-      @include tablet {
-        // transform: translateY(-8px);
+      @include desktop-large {
+        width: 108px;
+        transform: translateY(-14px);
       }
     }
 
@@ -246,8 +235,9 @@
         transform: translateY(10px);
       }
 
-      @include tablet {
-        // transform: translateY(8px);
+      @include desktop-large {
+        width: 118px;
+        transform: translateY(4px);
       }
     }
 
@@ -259,8 +249,9 @@
         transform: translateY(-16px);
       }
 
-      @include tablet {
-        // transform: translateY(-16px);
+      @include desktop-large {
+        width: 80px;
+        transform: translateY(-24px);
       }
     }
   }

@@ -15,6 +15,10 @@
 
   &__copy {
     max-width: 500px;
+
+    @include desktop-large {
+      max-width: 580px;
+    }
   }
 
   &__header {
@@ -39,6 +43,10 @@
       @include tablet {
         font-size: 2rem;
         text-underline-offset: 7px;
+      }
+
+      @include desktop-large {
+        font-size: 2.3rem;
       }
     }
   }

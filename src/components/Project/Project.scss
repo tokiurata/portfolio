@@ -122,6 +122,10 @@
     @include mobile {
       margin-right: $gap-100;
     }
+
+    @include tablet {
+      margin-right: $gap-150;
+    }
   }
 
   &__image-container {
@@ -147,7 +151,6 @@
     
     @include tablet {
       width: 320px;
-
     }
 
     &--small {
@@ -159,12 +162,10 @@
       @include mobile {
         display: inline-block;
         transform: translateX(-60px) translateY(30px);
-
       }
 
       @include tablet {
         width: 120px;
-
       }
     }
   }

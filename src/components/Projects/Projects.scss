@@ -25,9 +25,10 @@
     padding-top: $gap-350;
     padding-bottom: $gap-350;
   }
-
+  
   @include desktop {
     clip-path: polygon(0 7%, 100% 0, 100% 90%, 0 100%);
+    padding-bottom: $gap-400;
   }
 
   @include desktop-large {
@@ -38,7 +39,12 @@
     letter-spacing: 2px;
     text-transform: uppercase;
 
-    @include mobile {
+    @include tablet {
+      margin-bottom: $gap-200;
+    }
+
+    @include desktop {
+      margin-bottom: $gap-300;
     }
   }
 }
