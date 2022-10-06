@@ -26,8 +26,8 @@
       margin-right: auto;
     }
 
-    @include desktop {
-      // max-width: 600px;
+    @include desktop-large {
+      max-width: 800px;
     }
   }
   
@@ -42,13 +42,9 @@
       width: 180px;
     }
 
-    // @include tablet {
-    //   width: 280px;
-    // }
-
-    // @include desktop {
-    //   width: 280px;
-    // }
+    @include desktop-large {
+      width: 190px;
+    }
   }
 
   &__copy-container {
@@ -59,6 +55,7 @@
 
     @include tablet {
       transform: translateX(10px);
+      flex-direction: row;
     }
 
     @include desktop {
@@ -67,12 +64,21 @@
   }
 
   &__copy {
+
     &:first-of-type {
-      margin-right: $gap-150;
+      margin-bottom: $gap-150;
     }
-    @include desktop {
+
+    @include tablet {
       &:first-of-type {
         margin-right: $gap-300;
+        margin-bottom: 0;
+      }
+    }
+
+    @include desktop-large {
+      &:first-of-type {
+        margin-right: $gap-400;
       }
     }
   }
