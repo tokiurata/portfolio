@@ -1,4 +1,4 @@
-import contactImage from "../../assets/images/contact-image.webp";
+import contactImage from "../../assets/images/contact-image.png";
 import githubIcon from "../../assets/icons/github-light.svg";
 
 import "./Contact.scss";

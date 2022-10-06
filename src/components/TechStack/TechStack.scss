@@ -7,6 +7,7 @@
   position: relative;
   transform: translateY(-10px);
   z-index: -100;
+  margin-bottom: $gap-100;
 
   &__container {
     padding-left: $gap-50;
@@ -49,7 +50,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1.2rem;
 
   @include desktop {
     max-width: 1400px;
@@ -65,10 +65,12 @@
   border-radius: 4px;
   width: 120px;
   height: 120px;
+  margin: $gap-30;
 
   @include mobile {
     width: 140px;
     height: 140px;
+    margin: $gap-50;
   }
 
   @include desktop-large {

@@ -5,7 +5,8 @@
 .footer {
   color: $color-primary-light;
   background-color: $color-bg-dark;
-  padding-block: $gap-100;
+  padding-top: $gap-100;
+  padding-bottom: $gap-100;
   
   &__author {
     font-size: 1rem;

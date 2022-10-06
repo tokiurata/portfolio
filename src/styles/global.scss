@@ -52,7 +52,8 @@ h2 {
 h3 {
   font-size: 1.4rem;
   font-weight: 700;
-  margin-block: $gap-150;
+  margin-top: $gap-150;
+  margin-bottom: $gap-150;
 
   @include desktop-large {
     font-size: 1.6rem;
