@@ -4,24 +4,9 @@
 
 .techstack {
   background-color: $color-primary-light;
-  // background-color: lightcyan;
-  // border: 4px solid pink;
-
-  transform: translateY(-30px);
   position: relative;
+  transform: translateY(-30px);
   z-index: -100;
-
-  @include mobile {
-
-  }
-
-  @include tablet {
-
-  }
-
-  @include desktop {
-
-  }
 
   &__container {
     padding-left: $gap-50;
@@ -64,20 +49,8 @@
   justify-content: center;
   gap: 1.2rem;
 
-  @include mobile {
-
-  }
-
-  @include tablet {
-
-  }
-
   @include desktop {
     max-width: 1400px;
-  }
-
-  @include desktop-large {
-    // max-width: 1400px;
   }
 }
 
@@ -94,11 +67,6 @@
   @include mobile {
     width: 140px;
     height: 140px;
-  }
-
-  @include tablet {
-    // width: 180px;
-    // height: 180px;
   }
 
   @include desktop-large {
@@ -269,11 +237,6 @@
     @include mobile {
       font-size: .875rem;
       margin-bottom: .6rem;
-    }
-
-    @include tablet {
-      // font-size: 1rem;
-      // margin-bottom: .6rem;
     }
   }
 }

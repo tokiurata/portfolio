@@ -49,10 +49,6 @@
     &:nth-of-type(2) .project__image-container {
       order: -1;
     }
-
-    // &:not(:last-of-type):before {
-    //   display: none;
-    // }
   }
 
   &__copy {
@@ -64,12 +60,8 @@
       max-width: 500px;
     }
 
-    @include tablet {
-    }
-
     @include desktop {
       margin-left: $gap-200;
-      // width: 400px;
     }
   }
 
@@ -79,13 +71,6 @@
 
   &__body {
     line-height: 1.5;
-    
-    @include mobile {
-
-    }
-
-    @include tablet {
-    }
   }
 
   &__link,
@@ -103,10 +88,6 @@
 
     @include mobile {
       font-size: .9rem;
-    }
-
-    @include tablet {
-
     }
   
     &:hover {
@@ -144,10 +125,6 @@
     border-radius: 5px;
     border: 2px solid $color-primary-light;
     width: 270px;
-
-    @include mobile {
-
-    }
     
     @include tablet {
       width: 320px;

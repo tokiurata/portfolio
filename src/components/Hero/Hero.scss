@@ -55,12 +55,6 @@
     line-height: 1.55;
     margin-top: $gap-100;
 
-    @include mobile {
-     }
-
-    @include tablet {
-    }
-
     &--span {
       text-decoration: underline;
       text-underline-offset: 5.5px;
