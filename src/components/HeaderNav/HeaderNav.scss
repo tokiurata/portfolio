@@ -4,7 +4,7 @@
 
 .headernav {
   width: 100%;
-  background: $color-primary-light;
+  background-color: $color-primary-light;
   position: fixed;
   top: 0;
   display: flex;
@@ -13,35 +13,53 @@
   padding-bottom: $gap-100;
   z-index: 1000;
 
+  @include tablet {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: $gap-200;
+    padding-right: $gap-200;
+    padding-bottom: 0;
+  }
+
+  @include desktop-large {
+    padding-left: $gap-300;
+    padding-right: $gap-300;
+  }
+
   &__logo {
     text-transform: uppercase;
     letter-spacing: 4px;
+    opacity: .9;
     margin-top: $gap-50;
     margin-bottom: $gap-50;
-    opacity: .9;
+
+    @include tablet {
+      margin-top: $gap-100;
+      margin-bottom: $gap-100;
+    }
   }
 
   &__nav {
     display: flex;
-
-
   }
 
   &__nav-item {
-
     text-transform: uppercase;
     transition: all .2s;
 
-
+    &:not(:last-of-type) {
+      margin-right: $gap-100;
+    }
 
     &:hover,
     &:active {
-      color: $color-accent;
-      opacity: .7;
+      color: $color-accent-dark;
     }
 
-    &:not(:last-of-type) {
-      margin-right: $gap-100;
+    @include mobile {
+      &:not(:last-of-type) {
+        margin-right: 30px;
+      }
     }
   }
 }

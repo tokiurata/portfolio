@@ -24,7 +24,7 @@ body {
 
 main {
   margin-top: $gap-300;
-  padding-top: $gap-200;
+  padding-top: $gap-300;
 
   @include tablet {
   }
@@ -91,7 +91,7 @@ p {
 a {
   text-decoration: none;
   color: inherit;
-  display: block;
+  display: inline-block;
   white-space: nowrap;
   cursor: pointer;
 }
