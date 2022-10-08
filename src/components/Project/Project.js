@@ -1,25 +1,25 @@
 import "./Project.scss";
 
-function Project(props) {
+const Project = ({ title, description, image, imageSmall, liveSiteUrl, codeUrl }) => {
   return (
     <div className="project">
       <div className="project__copy">
         <h4 className="project__header">
-          {props.title}
+          {title}
         </h4>
         <p className="project__body">
-          {props.description}
+          {description}
         </p>
-        <a className="project__link" href={props.liveSiteUrl}>
+        <a className="project__link" href={liveSiteUrl}>
           View live site
         </a>
-        <a className="project__link" href={props.codeUrl}>
+        <a className="project__link" href={codeUrl}>
           View code
         </a>
       </div>
       <div className="project__image-container">
-        <img className="project__image" src={props.image} alt={props.title} />
-        <img className="project__image--small" src={props.imageSmall} alt={props.title} />
+        <img className="project__image" src={image} alt={title} />
+        <img className="project__image--small" src={imageSmall} alt={title} />
       </div>
     </div>
   );

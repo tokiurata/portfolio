@@ -1,6 +1,6 @@
 import "./Hero.scss";
 
-function Hero() {
+const Hero = () => {
   return (
     <div className="hero" >
       <div className="hero__copy">

@@ -3,7 +3,7 @@ import githubIcon from "../../assets/icons/github-light.svg";
 
 import "./Contact.scss";
 
-function Contact() {
+const Contact = () => {
   return (
     <div className="contact">
       <div className="contact__ref" id="contact"></div>

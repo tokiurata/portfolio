@@ -1,6 +1,6 @@
 import "./HeaderNav.scss";
 
-function HeaderNav() {
+const HeaderNav = () => {
   return (
     <nav className="headernav">
       <div className="headernav__ref" id="home"></div>

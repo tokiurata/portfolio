@@ -13,7 +13,7 @@ import reactrouterIcon from "../../assets/icons/reactrouter.svg";
 
 import "./TechStack.scss";
 
-function TechStack() {
+const TechStack = () => {
   return (
     <div className="techstack">
       <div className="techstack__ref" id="techstack"></div>

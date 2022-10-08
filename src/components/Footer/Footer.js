@@ -1,15 +1,15 @@
 import "./Footer.scss";
 
-function displayYear() {
+const displayYear = () => {
   const year = new Date().getFullYear();
   return year;
 }
 
-function Footer() {
+const Footer = () => {
   return (
     <div className="footer">
       <small 
-        className="footer__author"><span className="footer__copyright">©</span> Toki Urata {displayYear()}
+        className="footer__author"><span className="footer__copyright">©</span>  {displayYear()} Toki Urata
       </small>
     </div>
   );

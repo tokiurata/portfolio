@@ -6,7 +6,7 @@ import bandsiteSmall from "../../assets/images/bandsite-shows-small.png";
 
 import "./Projects.scss";
 
-function Projects() {
+const Projects = () => {
   return (
     <div className="projects">
       <div className="projects__ref" id="projects"></div>
