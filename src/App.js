@@ -7,7 +7,7 @@ import Footer from "./components/Footer/Footer"
 
 import "./App.scss";
 
-function App() {
+const App = () => {
   return (
     <div className="app">
       <HeaderNav />
