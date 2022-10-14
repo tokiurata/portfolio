@@ -62,7 +62,10 @@
 
     &:hover,
     &:active {
-      color: $color-accent-dark;
+      // color: $color-accent-dark;
+      opacity: .7;
+
+      transform: translateY(-2px);
     }
 
     @include mobile {
