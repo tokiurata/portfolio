@@ -12,7 +12,7 @@ const Contact = () => {
         <img className="contact__image" src={contactImage} alt="Toki Urata" />
         <address className="contact__copy-container">
           <div className="contact__copy">
-            <h4 className="contact__header">Email</h4>
+            <h4 className="contact__header contact__header--email">Email</h4>
             <a 
               className="contact__body" 
               href="mailto:tokiurata@outlook.com"

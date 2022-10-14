@@ -40,7 +40,8 @@
     border: 4px solid $color-accent-dark;
     width: 170px;
     border-radius: 50%;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 
     @include mobile {
       width: 180px;
@@ -90,12 +91,12 @@
   &__header {
     letter-spacing: 1px;
 
-    @include tablet {
+    &--email {
+      margin-bottom: 1rem;
     }
   }
 
   &__body {
-    margin-top: .5rem;
     transition: all .2s;
 
     @include mobile {
