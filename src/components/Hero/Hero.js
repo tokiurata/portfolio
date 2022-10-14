@@ -8,7 +8,7 @@ const Hero = () => {
           Hi! My name is <span className="hero__header--span">Toki</span>. I'm a 
         </h2>
         <h2 className="hero__header hero__header--big">
-          Front End Developer
+          Frontend Developer
         </h2>
         <h2 className="hero__header">
           based in Canada. 🇨🇦

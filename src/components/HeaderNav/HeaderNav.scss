@@ -18,20 +18,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: $gap-100;
+    padding-bottom: 1rem;
     z-index: 1000;
 
     @include tablet {
       flex-direction: row;
       justify-content: space-between;
-      padding-left: $gap-200;
-      padding-right: $gap-200;
+      padding-left: 2rem;
+      padding-right: 2rem;
       padding-bottom: 0;
     }
   
     @include desktop-large {
-      padding-left: $gap-300;
-      padding-right: $gap-300;
+      padding-left: 3rem;
+      padding-right: 3rem;
     }
   }
 
@@ -39,12 +39,12 @@
     text-transform: uppercase;
     letter-spacing: 4px;
     opacity: .9;
-    margin-top: $gap-50;
-    margin-bottom: $gap-50;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
 
     @include tablet {
-      margin-top: $gap-100;
-      margin-bottom: $gap-100;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
     }
   }
 
@@ -57,7 +57,7 @@
     transition: all .2s;
 
     &:not(:last-of-type) {
-      margin-right: $gap-100;
+      margin-right: 1rem;
     }
 
     &:hover,

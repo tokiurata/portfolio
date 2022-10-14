@@ -6,13 +6,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-left: $gap-100;
-  padding-right: $gap-100;
-  padding-top: $gap-100;
+  padding: 1rem;
 
   @include mobile {
-    padding-left: $gap-150;
-    padding-right: $gap-150;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   &__copy {
@@ -55,7 +53,7 @@
 
   &__body {
     line-height: 1.55;
-    margin-top: $gap-100;
+    margin-top: 1rem;
 
     &--span {
       text-decoration: underline;

@@ -23,8 +23,8 @@ body {
 }
 
 main {
-  margin-top: $gap-300;
-  padding-top: $gap-300;
+  margin-top: 3rem;
+  padding-top: 3rem;
 }
 
 h1 {
@@ -52,8 +52,8 @@ h2 {
 h3 {
   font-size: 1.4rem;
   font-weight: 700;
-  margin-top: $gap-150;
-  margin-bottom: $gap-150;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 
   @include desktop-large {
     font-size: 1.6rem;
@@ -62,7 +62,7 @@ h3 {
 
 h4 {
   font-size: 1.4rem;
-  margin-bottom: $gap-50;
+  margin-bottom: .5rem;
 
   @include mobile {
     font-size: 1.5rem;
@@ -75,7 +75,7 @@ h4 {
 
 p {
   font-size: 1rem;
-  margin-bottom: $gap-100;
+  margin-bottom: 1rem;
 
   @include mobile {
     font-size: 1.1rem;
