@@ -42,14 +42,6 @@ const TechStack = () => {
               src={javascriptIcon}
               alt="JavaScript"
             />
-            <figcaption className="tech__image-caption">JavaScript</figcaption>
-          </figure>
-          <figure className="tech">
-            <img
-              className="tech__image tech__image--typescript"
-              src={typescriptIcon}
-              alt="TypeScript"
-            />
             <figcaption className="tech__image-caption">TypeScript</figcaption>
           </figure>
           <figure className="tech">
@@ -57,6 +49,14 @@ const TechStack = () => {
               className="tech__image tech__image--html"
               src={htmlIcon}
               alt="HTML"
+            />
+            <figcaption className="tech__image-caption">JavaScript</figcaption>
+          </figure>
+          <figure className="tech">
+            <img
+              className="tech__image tech__image--typescript"
+              src={typescriptIcon}
+              alt="TypeScript"
             />
             <figcaption className="tech__image-caption">HTML</figcaption>
           </figure>
@@ -70,14 +70,6 @@ const TechStack = () => {
           </figure>
           <figure className="tech">
             <img
-              className="tech__image tech__image--sass"
-              src={sassIcon}
-              alt="Sass"
-            />
-            <figcaption className="tech__image-caption">Sass</figcaption>
-          </figure>
-          <figure className="tech">
-            <img
               className="tech__image tech__image--npm"
               src={npmIcon}
               alt="Node Package Manager"
@@ -85,6 +77,14 @@ const TechStack = () => {
             <figcaption className="tech__image-caption">
               Node Package Manager
             </figcaption>
+          </figure>
+          <figure className="tech">
+            <img
+              className="tech__image tech__image--sass"
+              src={sassIcon}
+              alt="Sass"
+            />
+            <figcaption className="tech__image-caption">Sass</figcaption>
           </figure>
           <figure className="tech">
             <img
@@ -124,6 +124,6 @@ const TechStack = () => {
       </div>
     </div>
   );
-}
+};
 
 export default TechStack;

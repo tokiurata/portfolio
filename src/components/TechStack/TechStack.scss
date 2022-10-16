@@ -4,27 +4,28 @@
 
 .techstack {
   background-color: $color-primary-light;
-  position: relative;
-  transform: translateY(-10px);
-  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
 
   &__ref {
-    transform: translateY(-70px);
+    transform: translateY(-54px);
     visibility: hidden;
   }
 
   &__container {
+    max-width: 400px;
     padding-left: .5rem;
     padding-right: .5rem;
     padding-bottom: 1rem;
 
     @include mobile {
+      max-width: 600px;
       padding-left: 1rem;
       padding-right: 1rem;
     }
 
     @include tablet {
-      max-width: 62.5rem;
+      max-width: 800px;
       padding-left: 2rem;
       padding-right: 2rem;
       margin-left: auto;
@@ -32,13 +33,11 @@
     }
   
     @include desktop {
-      max-width: 65rem;
-      transform: translateY(-10px);
+      max-width: 1000px;
     }
 
     @include desktop-large {
-      max-width: 80rem;
-      transform: translateY(-15px);
+      max-width: 1200px;
     }
   }
 
@@ -47,7 +46,7 @@
     letter-spacing: 2px;
     display: flex;
     flex-direction: column;
-    padding-top: 3.5rem;
+    padding-top: 2rem;
     padding-bottom: 1.5rem;
   }
 }
@@ -121,16 +120,16 @@
       }
     }
 
-    &--javascript {
-      transform: translateY(-4px);
+    &--typescript {
+      transform: translateY(-2px);
 
       @include mobile {
         transform: translateY(-8px);
       }
     }
 
-    &--typescript {
-      transform: translateY(-2px);
+    &--javascript {
+      transform: translateY(-4px);
 
       @include mobile {
         transform: translateY(-8px);
@@ -153,6 +152,18 @@
       }
     }
 
+    &--npm {
+      transform: translateY(-6px);
+
+      @include mobile {
+        transform: translateY(-9px);
+      }
+
+      @include desktop-large {
+        transform: translateY(-16px);
+      }
+    }
+
     &--sass {
       width: 55px;
       transform: translateY(-10px);
@@ -164,18 +175,6 @@
       @include desktop-large {
         width: 76px;
         transform: translateY(-17px);
-      }
-    }
-
-    &--npm {
-      transform: translateY(-6px);
-
-      @include mobile {
-        transform: translateY(-9px);
-      }
-
-      @include desktop-large {
-        transform: translateY(-16px);
       }
     }
 
