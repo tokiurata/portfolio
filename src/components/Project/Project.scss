@@ -14,22 +14,10 @@
   margin-right: auto;
   margin-bottom: 3rem;
   background-color: $color-bg-medium;
-  border: 1px solid $color-accent-dark;
   border-radius: 4px;
-
-
-  @include mobile {
-    &:last-of-type {
-    //  margin-bottom: 1.5rem;
-    }
-  }
 
   @include tablet {
     max-width: 700px;
-
-    // &:last-of-type {
-    //   margin-bottom: 2.5rem;
-    //  }
 
     &:not(:last-of-type):before {
       width: 150px;
@@ -43,14 +31,6 @@
     justify-content: space-around;
     max-width: 1200px;
     padding-bottom: 4rem;
-
-    // &:last-of-type {
-    //   margin-bottom: 3.5rem;
-    //  }
-
-    // &:nth-of-type(odd) .project__image-container {
-    //   order: -1;
-    // }
   }
 
   &__copy {
