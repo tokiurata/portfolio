@@ -6,11 +6,10 @@
   background-color: $color-primary-light;
   position: relative;
   transform: translateY(-10px);
-  z-index: -100;
   margin-bottom: 1rem;
 
   &__ref {
-    transform: translateY(-80px);
+    transform: translateY(-70px);
     visibility: hidden;
   }
 
@@ -48,8 +47,8 @@
     letter-spacing: 2px;
     display: flex;
     flex-direction: column;
-    padding-top: 1.5rem;
-    padding-bottom: 1rem;
+    padding-top: 3.5rem;
+    padding-bottom: 1.5rem;
   }
 }
 
