@@ -9,7 +9,7 @@ import npmIcon from "../../assets/icons/npm.svg";
 import nodeIcon from "../../assets/icons/nodejs.svg";
 import expressIcon from "../../assets/icons/express.svg";
 import axiosIcon from "../../assets/icons/axios.svg";
-import reactrouterIcon from "../../assets/icons/reactrouter.svg";
+import reactrouterIcon from "../../assets/icons/react-router.svg";
 
 import "./TechStack.scss";
 
