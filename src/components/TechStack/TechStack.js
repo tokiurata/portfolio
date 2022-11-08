@@ -1,17 +1,17 @@
-import reactIcon from "../../assets/icons/react.svg";
-import reduxIcon from "../../assets/icons/redux.svg";
-import javascriptIcon from "../../assets/icons/javascript.svg";
-import typescriptIcon from "../../assets/icons/typescript.svg";
-import htmlIcon from "../../assets/icons/html.svg";
-import cssIcon from "../../assets/icons/css3.svg";
-import sassIcon from "../../assets/icons/sass.svg";
-import npmIcon from "../../assets/icons/npm.svg";
-import nodeIcon from "../../assets/icons/nodejs.svg";
-import expressIcon from "../../assets/icons/express.svg";
-import axiosIcon from "../../assets/icons/axios.svg";
-import reactrouterIcon from "../../assets/icons/react-router.svg";
+import reactIcon from '../../assets/icons/react.svg';
+import reduxIcon from '../../assets/icons/redux.svg';
+import javascriptIcon from '../../assets/icons/javascript.svg';
+import typescriptIcon from '../../assets/icons/typescript.svg';
+import htmlIcon from '../../assets/icons/html.svg';
+import cssIcon from '../../assets/icons/css3.svg';
+import sassIcon from '../../assets/icons/sass.svg';
+import npmIcon from '../../assets/icons/npm.svg';
+import nodeIcon from '../../assets/icons/nodejs.svg';
+import expressIcon from '../../assets/icons/express.svg';
+import axiosIcon from '../../assets/icons/axios.svg';
+import reactrouterIcon from '../../assets/icons/react-router.svg';
 
-import "./TechStack.scss";
+import './TechStack.scss';
 
 const TechStack = () => {
   return (

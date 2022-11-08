@@ -3,7 +3,6 @@
 @use "../../styles/partials/variables" as *;
 
 .headernav {
-
   &__ref {
     position: absolute;
     top: 0;
@@ -28,7 +27,7 @@
       padding-right: 2rem;
       padding-bottom: 0;
     }
-  
+
     @include desktop-large {
       padding-left: 3rem;
       padding-right: 3rem;
@@ -38,9 +37,9 @@
   &__logo {
     text-transform: uppercase;
     letter-spacing: 4px;
-    opacity: .9;
-    margin-top: .5rem;
-    margin-bottom: .5rem;
+    opacity: 0.9;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 
     @include tablet {
       margin-top: 1rem;
@@ -54,8 +53,8 @@
 
   &__nav-item {
     text-transform: uppercase;
-    opacity: .9;
-    transition: all .2s;
+    opacity: 0.9;
+    transition: all 0.2s;
 
     &:not(:last-of-type) {
       margin-right: 1rem;

@@ -1,15 +1,18 @@
-import "./Project.scss";
+import './Project.scss';
 
-const Project = ({ title, description, image, imageSmall, liveSiteUrl, codeUrl }) => {
+const Project = ({
+  title,
+  description,
+  image,
+  imageSmall,
+  liveSiteUrl,
+  codeUrl,
+}) => {
   return (
     <div className="project">
       <div className="project__copy">
-        <h4 className="project__header">
-          {title}
-        </h4>
-        <p className="project__body">
-          {description}
-        </p>
+        <h4 className="project__header">{title}</h4>
+        <p className="project__body">{description}</p>
         <a className="project__link" href={liveSiteUrl}>
           View live site
         </a>
@@ -23,6 +26,6 @@ const Project = ({ title, description, image, imageSmall, liveSiteUrl, codeUrl }
       </div>
     </div>
   );
-}
+};
 
 export default Project;

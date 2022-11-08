@@ -1,7 +1,7 @@
-import contactImage from "../../assets/images/contact-image.png";
-import githubIcon from "../../assets/icons/github-light.svg";
+import contactImage from '../../assets/images/contact-image.png';
+import githubIcon from '../../assets/icons/github-light.svg';
 
-import "./Contact.scss";
+import './Contact.scss';
 
 const Contact = () => {
   return (
@@ -13,29 +13,20 @@ const Contact = () => {
         <address className="contact__copy-container">
           <div className="contact__copy">
             <h4 className="contact__header contact__header--email">Email</h4>
-            <a 
-              className="contact__body" 
-              href="mailto:tokiurata@outlook.com"
-            >tokiurata@outlook.com
+            <a className="contact__body" href="mailto:tokiurata@outlook.com">
+              tokiurata@outlook.com
             </a>
           </div>
           <div className="contact__copy">
             <h4 className="contact__header">GitHub</h4>
-            <a 
-              className="contact__body" 
-              href="https://github.com/TokiUrata"
-            >
-              <img 
-                src={githubIcon} 
-                className="contact__icon" 
-                alt="GitHub"
-              />
+            <a className="contact__body" href="https://github.com/TokiUrata">
+              <img src={githubIcon} className="contact__icon" alt="GitHub" />
             </a>
           </div>
         </address>
       </div>
     </div>
   );
-}
+};
 
 export default Contact;

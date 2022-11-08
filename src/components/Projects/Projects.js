@@ -1,12 +1,12 @@
-import Project from "../Project/Project";
-import npmPackageSearch from "../../assets/images/npm-package-search.png";
-import npmPackageSearchSmall from "../../assets/images/npm-package-search-small.png";
-import bandsite from "../../assets/images/bandsite-shows.png";
-import bandsiteSmall from "../../assets/images/bandsite-shows-small.png";
-import brainflix from "../../assets/images/brainflix.png";
-import brainflixSmall from "../../assets/images/brainflix-small.png";
+import Project from '../Project/Project';
+import npmPackageSearch from '../../assets/images/npm-package-search.png';
+import npmPackageSearchSmall from '../../assets/images/npm-package-search-small.png';
+import bandsite from '../../assets/images/bandsite-shows.png';
+import bandsiteSmall from '../../assets/images/bandsite-shows-small.png';
+import brainflix from '../../assets/images/brainflix.png';
+import brainflixSmall from '../../assets/images/brainflix-small.png';
 
-import "./Projects.scss";
+import './Projects.scss';
 
 const Projects = () => {
   return (
@@ -39,6 +39,6 @@ const Projects = () => {
       />
     </div>
   );
-}
+};
 
 export default Projects;

@@ -1,4 +1,4 @@
-import "./HeaderNav.scss";
+import './HeaderNav.scss';
 
 const HeaderNav = () => {
   return (
@@ -25,6 +25,6 @@ const HeaderNav = () => {
       </div>
     </nav>
   );
-}
+};
 
 export default HeaderNav;
