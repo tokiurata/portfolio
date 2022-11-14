@@ -17,7 +17,7 @@
 
 ### Link
 
-- Live Site URL: (https://toki-urata-portfolio.netlify.app)
+- Live Site URL: (https://www.tokiurata.com)
 
 ### Functionality
 
